@@ -4,11 +4,116 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Clone - Agência de Marketing Digital Performa Web</title>
+
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <header>
-            <nav>
-                
+            <nav class="container">
+                <a href="index.html"><img src="img/logo.png" alt="Performa Web"></a>
+                <ul class="menu">
+                    <li class="menu-list"><a href="#">Sobre Nós</a></li>
+                    <li class="menu-list services">
+                        Serviços
+                        <div class="services-menu">
+                            <ul class="media-management">
+                                <li class="level-1">
+                                    <a aria-label="Gestão de Mídia" href="#">Gestão de Mídia</a>
+                                </li>
+                                <input type="checkbox" class="services-button">
+                                <label class="services-icon" for="services-button">
+                                    <span class="button-icon"></span>
+                                </label>
+                                <li class="level-2">
+                                    <ul>
+                                        <li>
+                                            <a aria-label="Links Patrocinados" href="#">Links Patrocinados</a>
+                                        </li>
+                                        <li>
+                                            <a aria-label="Remarketing" href="#">Remarketing</a>
+                                        </li>
+                                        <li>
+                                            <a aria-label="Comparadores de Preços" href="#">Comparadores de Preços</a>
+                                        </li>
+                                        <li>
+                                            <a aria-label="Mídia Programática" href="#">Mídia Programática</a>
+                                        </li>
+                                        <li>
+                                            <a aria-label="Marketplace Ads" href="#">Marketplace Ads</a>
+                                        </li>
+                                        <li class="desktop-only">
+                                            <a aria-label="Campanhas para Apps" href="#">Campanhas para Apps</a>
+                                        </li>
+                                        <li class="desktop-only">
+                                            <ul>
+                                                <li>
+                                                    <a aria-label="Online to Offline" href="#">020 - Online to Offline</a>
+                                                </li>
+                                                <li class="level3">
+                                                    <a aria-label="Anúncios Locais Google" href="#">Anúncios Locais Google</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li>
+                                                    <a aria-label="Social Ads" href="#">Social Ads</a>
+                                                </li>
+                                                <li class="level-3">
+                                                    <a aria-label="Social Ads" href="#">Youtube Ads</a>
+                                                </li>
+                                                <li class="level-3">
+                                                    <a aria-label="Linkdedin Ads" href="#">Linkedin Ads</a>
+                                                </li>
+                                                <li class="level-3">
+                                                    <a aria-label="Instagram Ads" href="#">Instagram Ads</a>
+                                                </li>
+                                                <li class="level-3">
+                                                    <a aria-label="Facebook Ads" href="#">Facebook Ads</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="inbound-marketing"></ul>
+                            <ul class="analytics"></ul>
+                            <ul class="development"></ul>
+                            <ul class="consulting-and-strategy"></ul>
+                            <ul class="digital-make"></ul>
+                        </div>
+                    </li>
+                    <li class="menu-list"><a href="#">Clientes</a></li>
+                    <li class="menu-list"><a href="#">Cases</a></li>
+                    <li class="menu-list"><a href="#">Performa Education</a></li>
+                    <li class="menu-list"><a href="#">Blog</a></li>
+                    <li class="menu-list menu-contact"><a href="#">Contato</a></li>
+                    <li class="menu-list mobile-only"><a href="#"></a></li>
+                    <li class="change-language"><a href="#">
+                        <form id="selectLanguage" method="post" class="form-horizontal" role="form">
+                            <input type="hidden" name="culture" value="pt" id="culture">
+                            <div class="selected" value="pt">
+                                <img src="img/br-flag.png" alt="pt">
+                                <span>pt</span>
+                            </div>
+                            <input type="checkbox" id="languages">
+                            <ul class="custom-select">
+                                <li>
+                                    <img src="img/br-flag.png" alt="português" data-value="pt">
+                                    <span>PT</span>
+                                </li>
+                                <li>
+                                    <img src="img/us-flag.png" alt="inglês" data-value="en">
+                                    <span>EN</span>
+                                </li>
+                                <li>
+                                    <img src="img/es-flag.png" alt="espanho" data-value="es">
+                                    <span>ES</span>
+                                </li>
+                            </ul>
+                        </form>
+                    </a></li>
+                </ul>
             </nav>
         </header>
         <main>
